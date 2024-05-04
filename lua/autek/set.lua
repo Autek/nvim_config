@@ -34,3 +34,6 @@ vim.opt.colorcolumn = "80"
 
 -- leader key
 vim.g.mapleader = " "
+
+-- disable copilot on startup
+vim.cmd(":Copilot disable")
